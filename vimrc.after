@@ -1,0 +1,35 @@
+source ~/.cscope_maps.vim
+
+set t_Co=256
+let base16colorspace=256  " Access colors present in 256 colorspace
+"colorscheme cobalt2
+"colorscheme Tomorrow-Night
+colorscheme base16-tomorrow
+
+set tabstop=4
+"set softtabstop=4
+set shiftwidth=4
+set expandtab
+
+set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
+set list
+
+set mouse=a
+set wildmenu
+set cursorline
+set showtabline=2
+let &colorcolumn=join(range(81,999),",")
+highlight ColorColumn ctermbg=235 guibg=#2c2d27
+let &colorcolumn="80,".join(range(120,999),",")
+"set colorcolumn=80
+"highlight ColorColumn ctermbg=7
+set laststatus=2
+set splitright
+
+set encoding=utf-8
+
+"let g:nerdtree_tabs_autoclose=0
+
+python from powerline.vim import setup as powerline_setup
+python powerline_setup()
+python del powerline_setup
