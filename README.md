@@ -1,0 +1,2 @@
+# janus
+VIM Janus Config
