@@ -1,0 +1,6 @@
+[submodule "nerdtreetabs"]
+	path = nerdtreetabs
+	url = https://github.com/jistr/vim-nerdtree-tabs.git
+[submodule "cobalt2-vim-theme"]
+	path = cobalt2-vim-theme
+	url = git@github.com:nks5295/cobalt2-vim-theme.git
