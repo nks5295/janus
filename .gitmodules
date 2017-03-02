@@ -13,3 +13,6 @@
 [submodule "space-vim-dark"]
 	path = space-vim-dark
 	url = https://github.com/liuchengxu/space-vim-dark.git
+[submodule "vim-wakatime"]
+	path = vim-wakatime
+	url = git@github.com:wakatime/vim-wakatime.git
