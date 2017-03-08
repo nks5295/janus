@@ -1,18 +1,31 @@
-source ~/.cscope_maps.vim
+source ~/.scripts/cscope_maps.vim
+
+"if filereadable(expand("~/.vimrc_background"))
+"  let base16colorspace=256
+"  source ~/.vimrc_background
+"endif
 
 set t_Co=256
-let base16colorspace=256  " Access colors present in 256 colorspace
 "colorscheme cobalt2
 "colorscheme Tomorrow-Night
-colorscheme base16-tomorrow
+"colorscheme candycode
+"colorscheme base16-tomorrow
+colorscheme space-vim-dark
+
+nnoremap J :tabprev<CR>
+nnoremap K :tabnext<CR>
+nnoremap M J
+
+nnoremap H ^
+nnoremap L $
 
 set tabstop=4
-"set softtabstop=4
+set softtabstop=4
 set shiftwidth=4
 set expandtab
 
 set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
-set list
+set nolist
 
 set mouse=a
 set wildmenu
@@ -25,6 +38,8 @@ let &colorcolumn="80,".join(range(120,999),",")
 "highlight ColorColumn ctermbg=7
 set laststatus=2
 set splitright
+set lazyredraw
+set ttyfast
 
 set encoding=utf-8
 
