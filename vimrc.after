@@ -12,10 +12,10 @@ set t_Co=256
 "colorscheme base16-tomorrow
 colorscheme space-vim-dark
 
+nnoremap @ K
 nnoremap J :tabprev<CR>
 nnoremap K :tabnext<CR>
 nnoremap M J
-
 nnoremap H ^
 nnoremap L $
 
@@ -34,8 +34,6 @@ set showtabline=2
 let &colorcolumn=join(range(81,999),",")
 highlight ColorColumn ctermbg=235 guibg=#2c2d27
 let &colorcolumn="80,".join(range(120,999),",")
-"set colorcolumn=80
-"highlight ColorColumn ctermbg=7
 set laststatus=2
 set splitright
 set lazyredraw
