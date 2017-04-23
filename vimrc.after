@@ -35,14 +35,11 @@ let &colorcolumn=join(range(81,999),",")
 highlight ColorColumn ctermbg=235 guibg=#2c2d27
 let &colorcolumn="80,".join(range(120,999),",")
 set laststatus=2
+set nocompatible
+set hidden
 set splitright
 set lazyredraw
 set ttyfast
 
-set encoding=utf-8
-
 "let g:nerdtree_tabs_autoclose=0
 
-python from powerline.vim import setup as powerline_setup
-python powerline_setup()
-python del powerline_setup

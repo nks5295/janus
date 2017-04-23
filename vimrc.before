@@ -1,0 +1,26 @@
+call janus#disable_plugin('vimwiki')
+call janus#disable_plugin('easymotion')
+call janus#disable_plugin('narrowregion')
+
+set encoding=utf-8
+
+" vim-airline
+
+if !exists('g:airline_symbols')
+    let g:airline_symbols = {}
+endif
+
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
+
+" vim-airline theme options
+"  - luna
+"  - base16-spacemacs
+"  - tomorrow
+"  - simple-theme
+let g:airline_theme='simple'
+
+"" For powerline installed through pip
+"python from powerline.vim import setup as powerline_setup
+"python powerline_setup()
+"python del powerline_setup

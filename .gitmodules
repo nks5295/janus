@@ -16,3 +16,12 @@
 [submodule "vim-wakatime"]
 	path = vim-wakatime
 	url = https://github.com/wakatime/vim-wakatime.git
+[submodule "vim-airline"]
+	path = vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "vim-airline-themes"]
+	path = vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes
+[submodule "vim-surround"]
+	path = vim-surround
+	url = https://github.com/tpope/vim-surround.git
