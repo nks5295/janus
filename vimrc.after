@@ -1,17 +1,24 @@
+" cscope VIM Plugin
+" -----------------
 source ~/.scripts/cscope_maps.vim
+
+" Vim ColorScheme
+" ---------------
+set t_Co=256
 
 "if filereadable(expand("~/.vimrc_background"))
 "  let base16colorspace=256
 "  source ~/.vimrc_background
 "endif
 
-set t_Co=256
 "colorscheme cobalt2
 "colorscheme Tomorrow-Night
 "colorscheme candycode
 "colorscheme base16-tomorrow
 colorscheme space-vim-dark
 
+" Keybindings
+" -----------
 nnoremap @ K
 nnoremap J :tabprev<CR>
 nnoremap K :tabnext<CR>
@@ -19,6 +26,8 @@ nnoremap M J
 nnoremap H ^
 nnoremap L $
 
+" Tabs
+" ----
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
@@ -27,6 +36,8 @@ set expandtab
 set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
 set nolist
 
+" Misc Settings
+" -------------
 set mouse=a
 set wildmenu
 set cursorline
@@ -42,4 +53,17 @@ set lazyredraw
 set ttyfast
 
 "let g:nerdtree_tabs_autoclose=0
+
+" Workspace Setup
+" ---------------
+function! ThreeSplits()
+    vsp
+    sp
+    tabnew
+    e term://zsh
+    file Terminal
+    tabprevious
+    execute ":NERDTree"
+endfunction
+command! -register ThreeSplits call ThreeSplits()
 
