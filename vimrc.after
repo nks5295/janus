@@ -52,6 +52,9 @@ set splitright
 set lazyredraw
 set ttyfast
 
+" Enable Various Features
+" -----------------------
+let g:auto_save=1
 "let g:nerdtree_tabs_autoclose=0
 
 " Workspace Setup
