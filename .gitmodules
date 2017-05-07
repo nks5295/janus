@@ -25,3 +25,6 @@
 [submodule "vim-surround"]
 	path = vim-surround
 	url = https://github.com/tpope/vim-surround.git
+[submodule "vim-auto-save"]
+	path = vim-auto-save
+	url = https://github.com/vim-scripts/vim-auto-save
