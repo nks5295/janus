@@ -1,6 +1,6 @@
 " cscope VIM Plugin
 " -----------------
-source ~/.scripts/cscope_maps.vim
+source ~/.janus/cscope_maps.vim
 
 " Vim ColorScheme
 " ---------------
