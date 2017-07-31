@@ -28,3 +28,12 @@
 [submodule "vim-auto-save"]
 	path = vim-auto-save
 	url = https://github.com/vim-scripts/vim-auto-save
+[submodule "vim-ctrlp-cscope"]
+	path = vim-ctrlp-cscope
+	url = https://github.com/ivan-cukic/vim-ctrlp-cscope.git
+[submodule "ag.vim"]
+	path = ag.vim
+	url = https://github.com/rking/ag.vim
+[submodule "vim-ctrlp-tjump"]
+	path = vim-ctrlp-tjump
+	url = https://github.com/ivalkeen/vim-ctrlp-tjump.git
