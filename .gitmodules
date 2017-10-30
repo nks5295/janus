@@ -37,3 +37,33 @@
 [submodule "vim-ctrlp-tjump"]
 	path = vim-ctrlp-tjump
 	url = https://github.com/ivalkeen/vim-ctrlp-tjump.git
+[submodule "vim-go"]
+	path = vim-go
+	url = https://github.com/fatih/vim-go.git
+[submodule "vim-easytags"]
+	path = vim-easytags
+	url = https://github.com/xolox/vim-easytags.git
+[submodule "vim-session"]
+	path = vim-session
+	url = https://github.com/xolox/vim-session.git
+[submodule "vim-misc"]
+	path = vim-misc
+	url = https://github.com/xolox/vim-misc.git
+[submodule "mru.vim"]
+	path = mru.vim
+	url = https://github.com/vim-scripts/mru.vim.git
+[submodule "taglist.vim"]
+	path = taglist.vim
+	url = git@github.com:vim-scripts/taglist.vim.git
+[submodule "vim-multiple-cursors"]
+	path = vim-multiple-cursors
+	url = git@github.com:terryma/vim-multiple-cursors.git
+[submodule "vim-gocode"]
+	path = vim-gocode
+	url = https://github.com/Blackrush/vim-gocode.git
+[submodule "vim-godef"]
+	path = vim-godef
+	url = https://github.com/dgryski/vim-godef.git
+[submodule "restore_view.vim"]
+	path = restore_view.vim
+	url = https://github.com/vim-scripts/restore_view.vim.git
