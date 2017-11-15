@@ -76,3 +76,21 @@
 [submodule "vim-java-tags-plugin"]
 	path = vim-java-tags-plugin
 	url = https://github.com/robertbraeutigam/vim-java-tags-plugin.git
+[submodule "vim-colorschemes"]
+	path = vim-colorschemes
+	url = https://github.com/flazz/vim-colorschemes.git
+[submodule "vim-archery"]
+	path = vim-archery
+	url = https://github.com/Badacadabra/vim-archery.git
+[submodule "simplifysimplify"]
+	path = simplifysimplify
+	url = https://github.com/nightsense/simplifysimplify.git
+[submodule "forgotten"]
+	path = forgotten
+	url = https://github.com/nightsense/forgotten.git
+[submodule "Turtles"]
+	path = Turtles
+	url = https://github.com/beigebrucewayne/Turtles.git
+[submodule "setcolors.vim"]
+	path = setcolors.vim
+	url = https://github.com/felixhummel/setcolors.vim.git

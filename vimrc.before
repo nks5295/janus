@@ -1,8 +1,8 @@
 " Disable Janus Plugins
 " ---------------------
 "call janus#disable_plugin('vimwiki')
-call janus#disable_plugin('easymotion')
-call janus#disable_plugin('narrowregion')
+"call janus#disable_plugin('easymotion')
+"call janus#disable_plugin('narrowregion')
 call janus#disable_plugin('vim-easytags')
 call janus#disable_plugin('vim-auto-save')
 
@@ -39,6 +39,11 @@ let g:airline_theme='simple'
 let g:ctrlp_extensions = ['tag']
 let g:session_autosave = 'no'
 let g:syntastic_go_checkers = ['golint', 'govet', 'errcheck']
+
+" Colorscheme config values
+" -------------------------
+"  SimplifySimplify_Dark
+let g:simplifysimplify_dark_LineNr = 'off'
 
 " Tagbar Config for Golang Support
 " --------------------------------

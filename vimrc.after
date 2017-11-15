@@ -15,7 +15,8 @@ set t_Co=256
 "colorscheme Tomorrow-Night
 "colorscheme candycode
 "colorscheme base16-tomorrow
-colorscheme space-vim-dark
+"colorscheme space-vim-dark
+colorscheme simplifysimplify-dark
 
 " Keybindings
 " -----------
@@ -40,7 +41,7 @@ set nolist
 " -------------
 set mouse=a
 set wildmenu
-set cursorline
+set nocursorline
 set showtabline=2
 let &colorcolumn=join(range(81,999),",")
 highlight ColorColumn ctermbg=235 guibg=#2c2d27
