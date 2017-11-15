@@ -67,3 +67,12 @@
 [submodule "restore_view.vim"]
 	path = restore_view.vim
 	url = https://github.com/vim-scripts/restore_view.vim.git
+[submodule "vim-java-backend"]
+	path = vim-java-backend
+	url = https://github.com/robertbraeutigam/vim-java-backend
+[submodule "vim-java-changes"]
+	path = vim-java-changes
+	url = https://github.com/robertbraeutigam/vim-java-changes
+[submodule "vim-java-tags-plugin"]
+	path = vim-java-tags-plugin
+	url = https://github.com/robertbraeutigam/vim-java-tags-plugin.git
