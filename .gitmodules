@@ -94,3 +94,18 @@
 [submodule "setcolors.vim"]
 	path = setcolors.vim
 	url = https://github.com/felixhummel/setcolors.vim.git
+[submodule "papercolor-theme"]
+	path = papercolor-theme
+	url = https://github.com/NLKNguyen/papercolor-theme.git
+[submodule "vim-markdown"]
+	path = vim-markdown
+	url = https://github.com/plasticboy/vim-markdown.git
+[submodule "c-syntax.vim"]
+	path = c-syntax.vim
+	url = https://github.com/NLKNguyen/c-syntax.vim.git
+[submodule "vim-gas"]
+	path = vim-gas
+	url = https://github.com/Shirk/vim-gas.git
+[submodule "mips.vim"]
+	path = mips.vim
+	url = https://github.com/vim-scripts/mips.vim.git
