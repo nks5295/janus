@@ -109,3 +109,6 @@
 [submodule "mips.vim"]
 	path = mips.vim
 	url = https://github.com/vim-scripts/mips.vim.git
+[submodule "undotree"]
+	path = undotree
+	url = https://github.com/mbbill/undotree.git
