@@ -1,3 +1,7 @@
+" Abbreviations
+" -------------
+iabbrev iferr if err != nil {<CR>}<esc>O
+
 " Disable Janus Plugins
 " ---------------------
 "call janus#disable_plugin('vimwiki')
@@ -39,6 +43,7 @@ let g:airline_theme='simple'
 let g:ctrlp_extensions = ['tag']
 let g:session_autosave = 'no'
 let g:syntastic_go_checkers = ['golint', 'govet', 'errcheck']
+let g:vim_markdown_folding_disabled = 1
 
 " Colorscheme config values
 " -------------------------
