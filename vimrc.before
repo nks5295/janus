@@ -44,6 +44,10 @@ let g:ctrlp_extensions = ['tag']
 let g:session_autosave = 'no'
 let g:syntastic_go_checkers = ['golint', 'govet', 'errcheck']
 let g:vim_markdown_folding_disabled = 1
+if has('nvim')
+    let g:deoplete#enable_at_startup = 1
+endif
+"let g:go_auto_sameids = 1
 
 " Colorscheme config values
 " -------------------------

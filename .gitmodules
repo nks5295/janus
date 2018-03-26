@@ -118,3 +118,6 @@
 [submodule "dash.vim"]
 	path = dash.vim
 	url = https://github.com/rizzatti/dash.vim.git
+[submodule "deoplete.nvim"]
+	path = deoplete.nvim
+	url = https://github.com/Shougo/deoplete.nvim.git
