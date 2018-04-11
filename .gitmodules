@@ -124,3 +124,21 @@
 [submodule "challenger-deep-theme"]
 	path = challenger-deep-theme
 	url = https://github.com/challenger-deep-theme/vim.git
+[submodule "editorconfig-vim"]
+	path = editorconfig-vim
+	url = https://github.com/editorconfig/editorconfig-vim.git
+[submodule "neomake"]
+	path = neomake
+	url = https://github.com/neomake/neomake.git
+[submodule "onedark.vim"]
+	path = onedark.vim
+	url = https://github.com/joshdick/onedark.vim.git
+[submodule "neovim-ranger"]
+	path = neovim-ranger
+	url = https://github.com/airodactyl/neovim-ranger.git
+[submodule "vim-grepper"]
+	path = vim-grepper
+	url = https://github.com/mhinz/vim-grepper.git
+[submodule "vim-ctrlspace"]
+	path = vim-ctrlspace
+	url = https://github.com/vim-ctrlspace/vim-ctrlspace.git

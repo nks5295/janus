@@ -13,6 +13,8 @@ call janus#disable_plugin('vim-auto-save')
 " Set Default Encoding
 " --------------------
 set encoding=utf-8
+set nocompatible
+set hidden
 
 " vim-airline Setup
 " -----------------
@@ -25,7 +27,8 @@ let g:airline#extensions#tabline#enabled = 1
 
 " vim-airline theme options
 " -------------------------
-let g:airline_theme='simple'
+"let g:airline_theme='simple'
+let g:airline_theme='onedark'
 "  - luna
 "  - base16-spacemacs
 "  - tomorrow
@@ -47,12 +50,17 @@ let g:vim_markdown_folding_disabled = 1
 if has('nvim')
     let g:deoplete#enable_at_startup = 1
 endif
+if executable("ag")
+    let g:CtrlSpaceGlobCommand = 'ag -l --nocolor -g ""'
+endif
 "let g:go_auto_sameids = 1
 
 " Colorscheme config values
 " -------------------------
 "  SimplifySimplify_Dark
 let g:simplifysimplify_dark_LineNr = 'off'
+let g:onedark_termcolors=256
+let g:onedark_terminal_italics=1
 
 " Tagbar Config for Golang Support
 " --------------------------------

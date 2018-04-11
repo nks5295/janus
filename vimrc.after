@@ -16,7 +16,9 @@ set t_Co=256
 "colorscheme candycode
 "colorscheme base16-tomorrow
 "colorscheme space-vim-dark
-colorscheme simplifysimplify-dark
+"colorscheme simplifysimplify-dark
+"colorscheme challenger_deep
+colorscheme onedark
 
 " Keybindings
 " -----------
