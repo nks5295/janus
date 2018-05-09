@@ -4,8 +4,6 @@ source ~/.janus/cscope_maps.vim
 
 " Vim ColorScheme
 " ---------------
-set t_Co=256
-
 "if filereadable(expand("~/.vimrc_background"))
 "  let base16colorspace=256
 "  source ~/.vimrc_background
@@ -17,8 +15,10 @@ set t_Co=256
 "colorscheme base16-tomorrow
 "colorscheme space-vim-dark
 "colorscheme simplifysimplify-dark
-"colorscheme challenger_deep
-colorscheme onedark
+colorscheme challenger_deep
+"colorscheme onedark
+"colorscheme neodark
+"colorscheme quantum
 
 " Keybindings
 " -----------
