@@ -142,3 +142,15 @@
 [submodule "vim-ctrlspace"]
 	path = vim-ctrlspace
 	url = https://github.com/vim-ctrlspace/vim-ctrlspace.git
+[submodule "neodark.vim"]
+	path = neodark.vim
+	url = https://github.com/KeitaNakamura/neodark.vim.git
+[submodule "smpl-vim"]
+	path = smpl-vim
+	url = https://github.com/ikaros/smpl-vim.git
+[submodule "vim-polyglot"]
+	path = vim-polyglot
+	url = https://github.com/sheerun/vim-polyglot.git
+[submodule "vim-quantum"]
+	path = vim-quantum
+	url = https://github.com/tyrannicaltoucan/vim-quantum.git
