@@ -157,3 +157,6 @@
 [submodule "wal.vim"]
 	path = wal.vim
 	url = https://github.com/dylanaraps/wal.vim.git
+[submodule "vim-keepeye"]
+	path = vim-keepeye
+	url = https://github.com/soywod/vim-keepeye.git

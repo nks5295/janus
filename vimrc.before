@@ -75,6 +75,7 @@ if executable("ag")
     let g:CtrlSpaceGlobCommand = 'ag -l --nocolor -g ""'
 endif
 "let g:go_auto_sameids = 1
+let g:keepeye_autostart = 1
 
 " Tagbar Config for Golang Support
 " --------------------------------
