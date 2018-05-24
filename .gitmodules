@@ -154,3 +154,6 @@
 [submodule "vim-quantum"]
 	path = vim-quantum
 	url = https://github.com/tyrannicaltoucan/vim-quantum.git
+[submodule "wal.vim"]
+	path = wal.vim
+	url = https://github.com/dylanaraps/wal.vim.git
