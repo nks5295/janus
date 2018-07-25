@@ -160,3 +160,6 @@
 [submodule "vim-keepeye"]
 	path = vim-keepeye
 	url = https://github.com/soywod/vim-keepeye.git
+[submodule "cheat.sh-vim"]
+	path = cheat.sh-vim
+	url = https://github.com/dbeniamine/cheat.sh-vim.git
