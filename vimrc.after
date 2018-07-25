@@ -55,6 +55,7 @@ set hidden
 set splitright
 set lazyredraw
 set ttyfast
+set nonu
 
 " Enable Various Features
 " -----------------------
