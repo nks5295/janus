@@ -163,3 +163,15 @@
 [submodule "cheat.sh-vim"]
 	path = cheat.sh-vim
 	url = https://github.com/dbeniamine/cheat.sh-vim.git
+[submodule "TagHighlight"]
+	path = TagHighlight
+	url = https://github.com/vim-scripts/TagHighlight.git
+[submodule "tabular"]
+	path = tabular
+	url = https://github.com/godlygeek/tabular.git
+[submodule "neosnippet.vim"]
+	path = neosnippet.vim
+	url = https://github.com/Shougo/neosnippet.vim.git
+[submodule "neosnippet-snippets"]
+	path = neosnippet-snippets
+	url = https://github.com/Shougo/neosnippet-snippets.git
