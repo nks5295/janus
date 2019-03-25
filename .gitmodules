@@ -175,3 +175,9 @@
 [submodule "neosnippet-snippets"]
 	path = neosnippet-snippets
 	url = https://github.com/nks5295/neosnippet-snippets.git
+[submodule "vim-dim"]
+	path = vim-dim
+	url = https://github.com/jeffkreeftmeijer/vim-dim.git
+[submodule "vim-hcl"]
+	path = vim-hcl
+	url = https://github.com/b4b4r07/vim-hcl
