@@ -37,6 +37,9 @@ let g:quantum_black = 1
 let g:quantum_italics = 1
 "set background=dark
 "set termguicolors
+"if has('nvim')
+"    set termguicolors
+"endif
 
 " vim-airline Setup
 " -----------------

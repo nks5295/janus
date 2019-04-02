@@ -181,3 +181,18 @@
 [submodule "vim-hcl"]
 	path = vim-hcl
 	url = https://github.com/b4b4r07/vim-hcl
+[submodule "agit.vim"]
+	path = agit.vim
+	url = https://github.com/cohama/agit.vim
+[submodule "vim-picker"]
+	path = vim-picker
+	url = https://github.com/srstevenson/vim-picker
+[submodule "denite.nvim"]
+	path = denite.nvim
+	url = https://github.com/Shougo/denite.nvim
+[submodule "semantic-highlight.vim"]
+	path = semantic-highlight.vim
+	url = https://github.com/jaxbot/semantic-highlight.vim
+[submodule "sideways.vim"]
+	path = sideways.vim
+	url = https://github.com/AndrewRadev/sideways.vim
