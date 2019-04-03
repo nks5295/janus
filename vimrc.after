@@ -23,7 +23,7 @@ colorscheme challenger_deep
 
 " Keybindings
 " -----------
-nnoremap % K
+"nnoremap % K
 nnoremap J :tabprev<CR>
 nnoremap K :tabnext<CR>
 nnoremap M J
