@@ -1,9 +1,21 @@
+" Set Default Encoding
+" --------------------
+" --------------------
+
+set encoding=utf-8
+
+
 " cscope VIM Plugin
 " -----------------
+" -----------------
+
 source ~/.janus/cscope_maps.vim
 
-" Vim ColorScheme
+
+" ColorSchemes
 " ---------------
+" ---------------
+
 "if filereadable(expand("~/.vimrc_background"))
 "  let base16colorspace=256
 "  source ~/.vimrc_background
@@ -21,8 +33,11 @@ colorscheme challenger_deep
 "colorscheme quantum
 "colorscheme wal
 
+
 " Keybindings
 " -----------
+" -----------
+
 "nnoremap % K
 nnoremap J :tabprev<CR>
 nnoremap K :tabnext<CR>
@@ -30,40 +45,48 @@ nnoremap M J
 nnoremap H ^
 nnoremap L $
 
-" Tabs
-" ----
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
-set expandtab
 
-set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
-set nolist
-
-" Misc Settings
+" Set misc. config options
 " -------------
+" -------------
+
+
+set completeopt-=preview
 set mouse=a
-set wildmenu
 set nocursorline
 set showtabline=2
 let &colorcolumn=join(range(81,999),",")
 highlight ColorColumn ctermbg=235 guibg=#2c2d27
 let &colorcolumn="80,".join(range(120,999),",")
-set laststatus=2
-set nocompatible
-set hidden
 set splitright
 set lazyredraw
-set ttyfast
 set nonu
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
+set lcs=tab:▸\ ,trail:·,eol:¬,nbsp:_
+set nolist
+set nocompatible
+set ttyfast
+set wildmenu
+set ruler
+set history=10000
+set hlsearch
+set laststatus=2
+
 
 " Enable Various Features
 " -----------------------
-let g:auto_save=1
+" -----------------------
+
 "let g:nerdtree_tabs_autoclose=0
+
 
 " Workspace Setup
 " ---------------
+" ---------------
+
 function! ThreeSplits()
     vsp
     sp
@@ -74,4 +97,3 @@ function! ThreeSplits()
     execute ":NERDTree"
 endfunction
 command! -register ThreeSplits call ThreeSplits()
-

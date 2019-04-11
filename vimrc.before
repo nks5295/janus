@@ -1,28 +1,35 @@
 " Abbreviations
 " -------------
+" -------------
+
 "iabbrev iferr if err != nil {<CR>}<esc>O
 "iabbrev bail BAIL_ON_LWCA_ERROR(dwError);<CR>
 
+
 " Disable Janus Plugins
 " ---------------------
+" ---------------------
+
 "call janus#disable_plugin('vimwiki')
 "call janus#disable_plugin('easymotion')
 "call janus#disable_plugin('narrowregion')
 call janus#disable_plugin('vim-easytags')
 call janus#disable_plugin('vim-auto-save')
 
-" Set Default Encoding
-" --------------------
-set encoding=utf-8
 
 " Set misc. config options
 " ------------------------
-set nocompatible
-set hidden
+" ------------------------
+
 set t_Co=256
+set hidden
+let g:auto_save=1
+
 
 " Colorscheme config values
 " -------------------------
+" -------------------------
+
 "  SimplifySimplify_Dark
 let g:simplifysimplify_dark_LineNr = 'off'
 " Onedark
@@ -41,14 +48,18 @@ let g:quantum_italics = 1
 "    set termguicolors
 "endif
 
+
 " vim-airline Setup
 " -----------------
+" -----------------
+
 if !exists('g:airline_symbols')
     let g:airline_symbols = {}
 endif
 
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
+
 
 " vim-airline theme options
 " -------------------------
@@ -59,21 +70,32 @@ let g:airline_theme='simple'
 "  - tomorrow
 "  - simple-theme
 
+
 " Powerline Status Bar Setup
 " --------------------------
-"" For powerline installed through pip
+" --------------------------
+
+" For powerline installed through pip
+" -----------------------------------
 "python from powerline.vim import setup as powerline_setup
 "python powerline_setup()
 "python del powerline_setup
 
+
 " Plugin Config
 " -------------
+" -------------
+
 let g:ctrlp_extensions = ['tag']
 let g:session_autosave = 'no'
 let g:syntastic_go_checkers = ['golint', 'govet', 'errcheck']
 let g:vim_markdown_folding_disabled = 1
+" Deoplete
+" --------
 if has('nvim')
     let g:deoplete#enable_at_startup = 1
+    let g:deoplete#sources#go#gocode_binary = $GOPATH.'/bin/gocode'
+    let g:deoplete#sources#go#sort_class = ['package', 'func', 'type', 'var', 'const']
 endif
 if executable("ag")
     let g:CtrlSpaceGlobCommand = 'ag -l --nocolor -g ""'
@@ -82,9 +104,14 @@ endif
 let g:keepeye_autostart = 1
 let g:gitgutter_async = 0
 
-" Tagbar Config for Golang Support
+
+" Golang Configs
 " --------------------------------
+" --------------------------------
+
 let GOPATH = '/Users/shahneel/code/go/'
+let g:go_def_mode = 'godef'
+
 let g:tagbar_type_go = {
 	\ 'ctagstype' : 'go',
 	\ 'kinds'     : [
@@ -113,14 +140,18 @@ let g:tagbar_type_go = {
 	\ 'ctagsargs' : '-sort -silent'
 \ }
 
+
 " Plugin key-mappings.
+" --------------------
+" --------------------
+
+" SuperTab like snippets behavior.
 " Note: It must be "imap" and "smap".  It uses <Plug> mappings.
+" -------------------------------------------------------------
 imap <C-k>     <Plug>(neosnippet_expand_or_jump)
 smap <C-k>     <Plug>(neosnippet_expand_or_jump)
 xmap <C-k>     <Plug>(neosnippet_expand_target)
 
-" SuperTab like snippets behavior.
-" Note: It must be "imap" and "smap".  It uses <Plug> mappings.
 "imap <expr><TAB>
 " \ pumvisible() ? "\<C-n>" :
 " \ neosnippet#expandable_or_jumpable() ?

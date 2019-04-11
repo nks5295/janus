@@ -196,3 +196,15 @@
 [submodule "sideways.vim"]
 	path = sideways.vim
 	url = https://github.com/AndrewRadev/sideways.vim
+[submodule "deoplete-go"]
+	path = deoplete-go
+	url = https://github.com/deoplete-plugins/deoplete-go
+[submodule "deoplete-clang"]
+	path = deoplete-clang
+	url = https://github.com/deoplete-plugins/deoplete-clang
+[submodule "fugitive-gitlab.vim"]
+	path = fugitive-gitlab.vim
+	url = https://github.com/shumphrey/fugitive-gitlab.vim
+[submodule "patchreview-vim"]
+	path = patchreview-vim
+	url = https://github.com/junkblocker/patchreview-vim
