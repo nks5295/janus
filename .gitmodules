@@ -208,3 +208,9 @@
 [submodule "patchreview-vim"]
 	path = patchreview-vim
 	url = https://github.com/junkblocker/patchreview-vim
+[submodule "previm"]
+	path = previm
+	url = https://github.com/previm/previm
+[submodule "open-browser.vim"]
+	path = open-browser.vim
+	url = https://github.com/tyru/open-browser.vim
