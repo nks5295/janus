@@ -32,6 +32,8 @@ colorscheme challenger_deep
 "colorscheme neodark
 "colorscheme quantum
 "colorscheme wal
+"colorscheme one
+"set background=dark
 
 
 " Keybindings
