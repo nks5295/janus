@@ -277,3 +277,12 @@
 [submodule "vim-one"]
 	path = vim-one
 	url = https://github.com/rakr/vim-one.git
+[submodule "vim-devicons"]
+	path = after/vim-devicons
+	url = https://github.com/ryanoasis/vim-devicons.git
+[submodule "rainglow-vim"]
+	path = rainglow-vim
+	url = https://github.com/rainglow/vim
+[submodule "vim-deep-space"]
+	path = vim-deep-space
+	url = https://github.com/tyrannicaltoucan/vim-deep-space

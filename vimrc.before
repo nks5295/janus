@@ -21,9 +21,17 @@
 " ------------------------
 " ------------------------
 
+syntax enable
 set t_Co=256
+set background=dark
+let g:molokai_original = 1
+let g:rehash256 = 1
+
 set hidden
 let g:auto_save=1
+
+set encoding=utf-8
+set guifont=Hack_Nerd_Font:h13
 
 
 " Colorscheme config values
@@ -80,6 +88,7 @@ if !exists('g:airline_symbols')
 endif
 
 let g:airline_powerline_fonts = 1
+let g:airline_section_y = 'B: %{bufnr("%")}'
 let g:airline#extensions#tabline#enabled = 1
 
 
@@ -145,15 +154,31 @@ endif
 "let g:keepeye_autostart = 1
 let g:gitgutter_async = 0
 
-
 " Golang Configs
 " --------------------------------
 " --------------------------------
 
-let GOPATH = '/Users/shahneel/code/go/'
-"let g:go_def_mode = 'godef'
-let g:go_def_mode = 'gopls'
+let g:go_autodetect_gopath = 1
 let g:go_info_mode = 'gopls'
+let g:go_def_mode = 'gopls'
+let g:go_rename_command = 'gopls'
+let g:go_implements_mode = 'gopls'
+
+let g:go_highlight_space_tab_error = 0
+let g:go_highlight_array_whitespace_error = 0
+let g:go_highlight_trailing_whitespace_error = 0
+let g:go_highlight_extra_types = 1
+let g:go_highlight_build_constraints = 1
+let g:go_highlight_types = 1
+let g:go_highlight_fields = 1
+let g:go_highlight_variable_assignments = 1
+let g:go_highlight_variable_declarations = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_format_strings = 1
+let g:go_highlight_function_calls = 1
+let g:go_highlight_functions = 1
+let g:go_highlight_function_parameters = 1
+let g:go_gocode_propose_source = 1
 
 let g:tagbar_type_go = {
 	\ 'ctagstype' : 'go',
