@@ -85,26 +85,6 @@ set ruler
 set history=10000
 set hlsearch
 set laststatus=2
-
-
-" Enable Various Features
-" -----------------------
-" -----------------------
-
-"let g:nerdtree_tabs_autoclose=0
-
-
-" Workspace Setup
-" ---------------
-" ---------------
-
-function! ThreeSplits()
-    vsp
-    sp
-    tabnew
-    e term://zsh
-    file Terminal
-    tabprevious
-    execute ":NERDTree"
-endfunction
-command! -register ThreeSplits call ThreeSplits()
+set modeline
+syntax enable
+filetype plugin indent on
